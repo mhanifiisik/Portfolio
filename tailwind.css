@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500&display=swap");
+
+@layer base {
+  html,
+  body {
+    @apply antialiased;
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+  }
+}
+section {
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+canvas {
+  border-radius: 15px;
+}
+.homeetext {
+  -webkit-text-stroke: 2px black;
+  color: transparent;
+}
