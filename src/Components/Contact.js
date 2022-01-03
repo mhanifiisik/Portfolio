@@ -54,7 +54,7 @@ function Contact() {
               <FaPhoneAlt className="text-primary-third" />
               +48 (780) 612 852
             </li>
-            <li className="flex flex-row gap-x-2  items-center">
+            <li className=" flex-row hidden sm:flex gap-x-2  items-center">
               <FaRegEnvelope className="text-primary-third" />
               mehmethanifiisik@yahoo.com
             </li>

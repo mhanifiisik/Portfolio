@@ -12,10 +12,7 @@ module.exports = {
         "primary-dark": "#121212",
         "primary-dark-text": "#a6d1c9",
         "primary-dark-contact": "#84719B",
-      },
-      screens: {
-        blg: "1100px",
-      },
+      }
     },
   },
   variants: {

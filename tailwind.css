@@ -29,3 +29,6 @@ canvas {
   -webkit-text-stroke: 2px black;
   color: transparent;
 }
+.footer{
+  overflow-y: hidden;
+}

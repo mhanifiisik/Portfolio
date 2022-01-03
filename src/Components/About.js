@@ -30,17 +30,17 @@ function About() {
       id="About"
       className="border-t border-b border-black dark:border-primary-dark-text"
     >
-      <div className="flex flex-col blg:flex-row  p-5 gap-5">
-        <div data-aos="fade-right" className="w-full h-full">
+      <div className="flex flex-col md:flex-row p-5 gap-5">
+        <div data-aos="fade-right" className="w-full md:w-1/3 md:flex-none h-full">
           <div ref={container} className="h-[350px] w-full object-fill"></div>
         </div>
         <div
           data-aos="fade-left"
-          className="col-span flex flex-col gap-y-5 dark:text-primary-dark-text "
+          className="col-span flex-1 flex flex-col gap-y-5 dark:text-primary-dark-text "
         >
           <h1 className="font-bold">ABOUT ME</h1>
           <p>
-            Hello!,My name is Mehmet Hanifi and I am Software Developer from
+            Hello! , My name is Mehmet Hanifi and I am Software Developer from
             Turkey.I have recently graduated from University in majoring
             Computer Engineering. I like interactive web designing and coding.
             Briefly, I have a deep passion for Front-end Development and

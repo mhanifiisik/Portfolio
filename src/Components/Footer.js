@@ -4,9 +4,9 @@ import { SiGmail } from "react-icons/si";
 
 function Footer() {
   return (
-    <div className="mt-20 h-20 border-t-2 border-black dark:border-primary-dark-text flex justify-center bg-primary-fourth dark:bg-black">
-      <div className="flex flex-row gap-x-5 justify-center items-center">
-        <p className="text-primary-second font-bold p-5  dark:text-primary-dark-text">
+    <div className="footer px-1 mt-20 h-20 border-t-2 border-black dark:border-primary-dark-text flex justify-center bg-primary-fourth dark:bg-black">
+      <div className="flex pr-3 flex-row gap-x-5 justify-center items-center">
+        <p className="text-primary-second text-sm md:text-base font-bold p-5  dark:text-primary-dark-text">
           Mehmet Hanifi Isık © 2021
         </p>
         <a
